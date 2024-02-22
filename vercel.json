@@ -23,7 +23,7 @@
       "dest": "/server.js"
     },
     {
-      "src": "/https://rooted-api-bice.vercel.app/i/*",
+      "src": "/https://rooted-api-bice.vercel.app/*",
       "methods": ["GET", "POST"],
       "headers": {
       "Access-Control-Allow-Origin": "*",
