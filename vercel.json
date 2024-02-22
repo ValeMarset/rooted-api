@@ -4,7 +4,6 @@
     { "src": "server.js", "use": "@vercel/node" },
     { "src": "/public/**/*", "use": "@vercel/static" }
   ],
-  
   "routes": [
     {
       "src": "/css/(.*)",
@@ -21,14 +20,6 @@
     {
       "src": "/(.*)",
       "dest": "/server.js"
-    },
-    {
-      "src": "/https://rooted-api-bice.vercel.app/*",
-      "methods": ["GET", "POST"],
-      "headers": {
-      "Access-Control-Allow-Origin": "*",
-      "Access-Control-Allow-Methods": "GET,POST"
-      }
     }
   ]
 }
